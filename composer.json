@@ -1,0 +1,30 @@
+{
+    "name": "wizcodepl/lunar-health-checks",
+    "description": "Spatie Health checks for Lunar PHP (carts, orders, search, queues)",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "lunarphp/core": "^1.0",
+        "spatie/laravel-health": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "WizcodePl\\LunarHealthChecks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WizcodePl\\LunarHealthChecks\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WizcodePl\\LunarHealthChecks\\LunarHealthChecksServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
