@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace WizcodePl\LunarHealthChecks;
+namespace WizcodePl\LunarHealth;
 
 use Illuminate\Support\ServiceProvider;
 
-class LunarHealthChecksServiceProvider extends ServiceProvider
+class LunarHealthServiceProvider extends ServiceProvider
 {
     public function register(): void
     {

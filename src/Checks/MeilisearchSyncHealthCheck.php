@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace WizcodePl\LunarHealthChecks\Checks;
+namespace WizcodePl\LunarHealth\Checks;
 
 use Lunar\Models\Product;
 use Meilisearch\Client;
